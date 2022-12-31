@@ -21,6 +21,9 @@ body {
   0% {
     transform: rotateX(-20deg) rotateY(360deg);
   }
+  100% {
+    transform: rotateX(-20deg) rotateY(0deg);
+  }
 }
 .box div {
   position: absolute;
@@ -34,4 +37,5 @@ body {
   height: 100px;
   background-color: #444;
   transform: rotateY(calc(90deg * var(--i))) translateZ(100px);
+  transition: 0.5s;
 }
