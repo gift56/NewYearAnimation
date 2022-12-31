@@ -52,4 +52,18 @@ body {
   align-items: center;
   justify-content: center;
   transform: rotateY(calc(90deg * var(--i))) translateZ(150px);
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 8rem;
+  text-transform: uppercase;
+  z-index: 10;
+  line-height: 1em;
+  -webkit-text-stroke: 3px #000;
+  transform-style: preserve-3d;
+}
+.box div.text span::before {
+  content: attr(data-text);
+}
+.box div.text span:nth-child(1) {
+  font-size: 6rem;
 }
