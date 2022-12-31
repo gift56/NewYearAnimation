@@ -39,3 +39,7 @@ body {
   transform: rotateY(calc(90deg * var(--i))) translateZ(100px);
   transition: 0.5s;
 }
+.box:hover div.block span {
+  background-color: #2b2ba0;
+  cursor: pointer;
+}
