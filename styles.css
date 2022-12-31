@@ -44,3 +44,8 @@ body {
   filter: drop-shadow(0 0 50px #2b2ba0);
   cursor: pointer;
 }
+.box div.text span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
