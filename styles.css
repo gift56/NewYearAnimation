@@ -41,5 +41,6 @@ body {
 }
 .box:hover div.block span {
   background-color: #2b2ba0;
+  filter: drop-shadow(0 0 50px #2b2ba0);
   cursor: pointer;
 }
