@@ -4,13 +4,27 @@
   box-sizing: border-box;
   font-family: "Dosis", sans-serif;
 }
-body{
-    background-color: #333;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
+body {
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
-.box{
-    transform-style: preserve-3d;
+.box {
+  transform-style: preserve-3d;
+  position: relative;
+  height: 200px;
+}
+.box div {
+  position: absolute;
+  inset: 0;
+  transform-style: preserve-3d;
+}
+.box div.block span {
+  position: absolute;
+  left: calc(50% - 100px);
+  width: 200px;
+  height: 100px;
+  background-color: #444;
 }
